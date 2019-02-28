@@ -27,3 +27,7 @@ spl_autoload_register('chargerClass');
 $usine = new Factory('Cercle');
 $figure = $usine->getFigure();
 $figure->jeMeDecris();
+
+$maNouvelleFabrique = new Factory('Triangle');
+$maFigure = $maNouvelleFabrique->getFigure();
+$maFigure->jeMeDecris();
